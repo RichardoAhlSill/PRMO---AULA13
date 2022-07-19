@@ -1,0 +1,88 @@
+import 'package:notitulo1/domain/pacote_turistico.dart';
+
+class BD {
+  static List<PacoteTuristico> lista = [
+    PacoteTuristico(
+      imagem:
+      'https://a.cdn-hotels.com/gdcs/production97/d402/6baff29c-e43b-4caf-a9e8-5dcf1279dea0.jpg?impolicy=fcrop&w=800&h=533&q=medium',
+      titulo: 'Pacote Cancún 2022/2023',
+      transporte: 'Aéreo - Hotel All inclusive',
+      cidade: 'CANCÚN, MEX',
+      validade: 'De 10 ago 2021 até 30 set 2022',
+      desconto: 45,
+      numDiarias: 5,
+      numPessoas: 2,
+      numParcelas: 6,
+      precoAntigo: 6819,
+      precoAtual: 2819,
+    ),
+    PacoteTuristico(
+      imagem: 'https://letsdive.com.br/wp-content/uploads/2019/04/PROCURANDO-MERGULHO-EM-MARAGOGI-CONSIDERE-MACEIO.png',
+      titulo: 'Pacote Alagoas 2023',
+      transporte: 'Hotel All inclusive',
+      cidade: 'MARAGOGI, BRA',
+      validade: 'De 10 jan 2022 até 31 dez 2023',
+      desconto: 45,
+      numDiarias: 7,
+      numPessoas: 3,
+      numParcelas: 12,
+      precoAntigo: 4819,
+      precoAtual: 819,
+    ),
+    PacoteTuristico(
+      imagem: 'https://s3q7j5f5.stackpathcdn.com/wp-content/uploads/2021/07/maceio-cidade-brasil.jpg',
+      titulo: 'Pacote Alagoas 2022',
+      transporte: 'AutoBus - Hotel All inclusive',
+      cidade: 'MACEIO, BRA',
+      validade: 'De 10 jan 2022 até 31 dez 2022',
+      desconto: 50,
+      numDiarias: 5,
+      numPessoas: 2,
+      numParcelas: 12,
+      precoAntigo: 1349,
+      precoAtual: 989,
+    ),
+    PacoteTuristico(
+      imagem: 'https://s2.glbimg.com/Sm6o69zxnYAZd6inKgUt3eMSngE=/0x0:900x676/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2021/Q/K/iA4FcLTA2bbtdrYepHAg/arapiraca.jpg',
+      titulo: 'Pacote Alagoas 2022',
+      transporte: 'Auto Van',
+      cidade: 'ARAPIRACA, BRA',
+      validade: 'De 10 jan 2022 até 31 dez 2022',
+      desconto: 25,
+      numDiarias: 7,
+      numPessoas: 5,
+      numParcelas: 12,
+      precoAntigo: 178,
+      precoAtual: 149,
+    ),
+    PacoteTuristico(
+      imagem: 'https://img.7segundos.com.br/rb828qQzkHfN71xqUmHAo34-LFw=/1110x650/s3.7segundos.com.br/uploads/imagens/girau-5.jpg',
+      titulo: 'Pacote Alagoas 2023',
+      transporte: 'AutoMoto',
+      cidade: 'GIRAU DO PONCIANO, BRA',
+      validade: 'De 10 jan 2022 até 31 dez 2022',
+      desconto: 75,
+      numDiarias: 29,
+      numPessoas: 12,
+      numParcelas: 12,
+      precoAntigo: 25,
+      precoAtual: 2.50,
+    ),
+    PacoteTuristico(
+      imagem: 'https://letsdive.com.br/wp-content/uploads/2019/04/PROCURANDO-MERGULHO-EM-MARAGOGI-CONSIDERE-MACEIO.png',
+      titulo: 'Pacote Verão 2023',
+      transporte: 'Aereo/Bus - Hotel All inclusive',
+      cidade: 'MARAGOGI, BRA',
+      validade: 'De 10 jan 2022 até 31 dez 2023',
+      desconto: 50,
+      numDiarias: 7,
+      numPessoas: 2,
+      numParcelas: 12,
+      precoAntigo: 8900,
+      precoAtual: 7679,
+    ),
+  ];
+  static List<PacoteTuristico> getPacotesTuristicos() {
+    return lista;
+  }
+}
